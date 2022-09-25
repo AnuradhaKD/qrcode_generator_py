@@ -5,4 +5,6 @@ get_link = input("Enter your URL : ")
 
 url = pyqrcode.create(get_link)
 
-url.svg(qr_code.svg, scale = 8)
+url.svg("qr_code.svg", scale = 8)
+
+print("check your root folder to qr code")
